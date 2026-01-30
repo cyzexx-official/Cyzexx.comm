@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cyzexx | Trading Education & Analysis</title>
+<style>
+body {margin:0; font-family: Arial, sans-serif; background:#0b0f1a; color:#ffffff; line-height:1.6;}
+header {background:#11162a; padding:20px; text-align:center;}
+header h1 {color:#4da3ff; margin:0;}
+header p {margin-top:5px; color:#bbb;}
+nav {background:#0f1530; padding:10px; text-align:center;}
+nav a {color:#ffffff; margin:0 12px; text-decoration:none; font-weight:bold;}
+section {padding:40px 20px; max-width:1000px; margin:auto;}
+h2 {color:#4da3ff;}
+.box {background:#11162a; padding:20px; margin:20px 0; border-radius:8px;}
+.btn {display:inline-block; padding:12px 20px; background:#4da3ff; color:#000; text-decoration:none; border-radius:6px; font-weight:bold;}
+footer {background:#0f1530; padding:20px; text-align:center; font-size:14px; color:#aaa;}
+input[type="password"], input[type="text"] {padding:10px; margin:5px 0; width:80%; border-radius:6px; border:none;}
+input[type="submit"] {padding:10px 20px; background:#4da3ff; border:none; color:#000; border-radius:6px; cursor:pointer; font-weight:bold;}
+.hidden {display:none;}
+iframe {width:100%; height:500px; border:0; border-radius:8px;}
+</style>
+</head>
+<body>
+
+<header>
+  <h1>CYZEXX</h1>
+  <p>Smart Trading • Real Knowledge</p>
+</header>
+
+<nav>
+  <a href="#home">Home</a>
+  <a href="#education">Education</a>
+  <a href="#analysis">Market Analysis</a>
+  <a href="#vip">VIP</a>
+  <a href="#partners">Partners</a>
+  <a href="#disclaimer">Disclaimer</a>
+  <a href="#contentplan">Content Plan</a>
+</nav>
+
+<section id="home">
+  <h2>Welcome to Cyzexx</h2>
+  <div class="box">
+    <p>Cyzexx is a trading education and market analysis platform. We focus on discipline, risk management, and smart decision-making.</p>
+    <p>We do not promise profits. We teach how markets work.</p>
+  </div>
+</section>
+
+<section id="education">
+  <h2>Trading Education</h2>
+  <div class="box">
+    <ul>
+      <li>Trading fundamentals</li>
+      <li>EMA 50 / 200 strategies</li>
+      <li>Price Action basics</li>
+      <li>Risk management principles</li>
+      <li>Trading psychology</li>
+    </ul>
+  </div>
+</section>
+
+<section id="analysis">
+  <h2>Market Analysis</h2>
+  <div class="box">
+    <p>We provide educational market insights and trend analysis. Learn how to read charts and understand market structure.</p>
+    <p>Live prices and charts are visible below:</p>
+    <!-- TradingView Widget -->
+    <iframe src="https://s.tradingview.com/widgetembed/?symbol=BITSTAMP:BTCUSD&interval=D&theme=Dark&style=1" allowfullscreen></iframe>
+  </div>
+</section>
+
+<section id="vip">
+  <h2>Cyzexx VIP</h2>
+  <div class="box">
+    <p>Cyzexx VIP gives access to advanced educational content, in-depth market analysis, and professional trading concepts.</p>
+    
+    <div id="vipLogin">
+      <h3>VIP Login</h3>
+      <form onsubmit="return checkPassword()">
+        <input type="text" id="username" placeholder="Username" required><br>
+        <input type="password" id="password" placeholder="Password" required><br>
+        <input type="submit" value="Login">
+      </form>
+    </div>
+
+    <div id="vipContent" class="hidden">
+      <ul>
+        <li>Weekly deep market analysis</li>
+        <li>EMA & Price Action breakdown</li>
+        <li>Risk management & psychology lessons</li>
+        <li>Premium educational charts</li>
+      </ul>
+      <p>⚠️ Educational purpose only. No profit guarantee.</p>
+    </div>
+
+    <a class="btn" href="#">Join VIP</a>
+  </div>
+</section>
+
+<section id="partners">
+  <h2>Trade with Trusted Partners</h2>
+  <div class="box">
+    <p>Real trading should only be done on trusted exchanges. We recommend Bitget for futures and derivatives trading.</p>
+    <a class="btn" href="https://www.bitget.com" target="_blank">Trade on Bitget</a>
+    <p style="font-size:14px;margin-top:10px;">Affiliate links may be used. No extra cost for users.</p>
+  </div>
+</section>
+
+<section id="disclaimer">
+  <h2>Disclaimer</h2>
+  <div class="box">
+    <p>Cyzexx does not provide financial advice. All content is for educational and informational purposes only.</p>
+    <p>Trading involves risk and may result in loss of capital. You are fully responsible for your trading decisions.</p>
+    <p>All links to third-party platforms are for reference only. Cyzexx is not responsible for their operations.</p>
+  </div>
+</section>
+
+<section id="contentplan">
+  <h2>Content Plan</h2>
+  <div class="box">
+    <h3>Daily Content (Free)</h3>
+    <ul>
+      <li>BTC / ETH general market overview</li>
+      <li>Trend analysis (bullish/bearish/range)</li>
+      <li>1 chart snapshot with explanation</li>
+    </ul>
+    <h3>Weekly Content</h3>
+    <ul>
+      <li>1–2 Educational posts: EMA, PA, Risk Management</li>
+      <li>1–2 Market Analysis posts: "What to watch this week"</li>
+    </ul>
+    <h3>VIP Content (2–3 posts per week)</h3>
+    <ul>
+      <li>Detailed chart analysis</li>
+      <li>Setup explanations (educational only)</li>
+      <li>Strategy breakdown & psychology tips</li>
+    </ul>
+  </div>
+</section>
+
+<section id="social">
+  <h2>Social Media</h2>
+  <div class="box">
+    <p>Telegram BIO:</p>
+    <pre>
+Cyzexx — Trading Education & Market Analysis
+• Smart trading, not gambling
+• Technical analysis (EMA, PA)
+• Market insights & learning
+• Trade responsibly via trusted exchanges
+⚠️ Educational purpose only
+🌐 cyzexx.com
+    </pre>
+    <p>Instagram BIO:</p>
+    <pre>
+Cyzexx
+Trading Education | Market Analysis
+📊 Learn before you trade
+🧠 Smart risk management
+🔗 Trade via trusted partners
+🌐 cyzexx.com
+    </pre>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 Cyzexx. All rights reserved.</p>
+</footer>
+
+<script>
+function checkPassword(){
+  const user = document.getElementById('username').value;
+  const pass = document.getElementById('password').value;
+  // Misol uchun: username = "vipuser", password = "12345"
+  if(user === "vipuser" && pass === "12345"){
+    document.getElementById('vipLogin').classList.add('hidden');
+    document.getElementById('vipContent').classList.remove('hidden');
+    alert("Welcome to VIP!");
+    return false;
+  } else {
+    alert("Incorrect username or password");
+    return false;
+  }
+}
+</script>
+
+</body>
+  </html>
